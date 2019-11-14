@@ -1,0 +1,103 @@
+body {
+    font-family: 'Literata', serif;
+}
+
+
+
+
+.toggle> span {
+    width: 30px;
+    height: 5px;
+    background: #11CDFC;
+    display: block;
+    margin: 5px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  
+  }
+
+  
+
+
+  .btn-color{
+      background: #11CDFC;
+      color: white;
+  }
+  hr {
+      background-color: #11CDFC;
+
+  }
+
+  .hide {
+      position: absolute;
+      left: -100%;
+      transition: all 500ms linear;
+  }
+
+  .active{
+    left: 0%;
+    transition: all 500ms linear;
+  }
+
+  .bg, li {
+      z-index: 999;
+      background: #11CDFC;
+  }
+  .sm-hide {
+      display: none;
+  }
+
+  
+
+  .center {
+      text-align: center;
+      padding-top: 10px;
+      
+  }
+  ul li a  {
+      cursor: pointer;
+      text-decoration: none;
+      
+  }
+
+  ul li :hover {
+      background: #11CDFC;
+      text-decoration: none;
+      background-size: 50px;
+      border-radius: 3px;
+  }
+  
+  
+
+  @media screen and (min-width: 576px){
+    /* 576px and Up */
+    .sm-hide {
+        display: block;
+    }
+    .center {
+        text-align: start;
+        padding-top: 0;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    /* 768px and up */
+    .lead {
+        margin-top: 10%;
+    }
+    .sm-hide {
+       margin-top: -5%
+    }
+
+   
+  }
+
+  @media screen and (min-width: 998px){
+    /* 998px and up */
+   
+  }
+  @media screen and (min-width: 1200px){
+    /* 1200px and up */
+   
+  }
